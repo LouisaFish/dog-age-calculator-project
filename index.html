@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>狗狗年齡計算機</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">🐾 妙麗年齡計算機</h1>
+
+      <!-- 主圖 -->
+      <div class="hero">
+        <img src="/img/banner-logo.png" alt="卡通柯基犬" />
+      </div>
+
+      <p class="desc">請輸入狗狗的生日，我們將為您計算魔法般的狗狗年齡 ✨</p>
+
+      <!-- 出生日 input -->
+      <label class="label">狗狗生日：</label>
+      <input type="date" id="dogBirthday" value="2023-02-28" />
+
+      <!-- 計算按鈕 -->
+      <button id="calcBtn">🔮 計算年齡</button>
+
+      <!-- 結果 -->
+      <div id="result" class="result-box"></div>
+
+      <!-- 資料來源 -->
+      <p class="source">
+        計算方式資料來源：
+        <a
+          href="https://www.akc.org/expert-advice/health/how-to-calculate-dog-years-to-human-years/"
+          target="_blank"
+        >
+          American Kennel Club (AKC)
+        </a>
+      </p>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
